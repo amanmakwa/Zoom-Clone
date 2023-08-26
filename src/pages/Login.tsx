@@ -32,7 +32,7 @@ function Login() {
     if (currentUser) navigate("/");
   });
 
-  const login = async () => {
+  const login = async() => {
     const provider = new GoogleAuthProvider();
     const {
       user: { displayName, email, uid },
@@ -71,7 +71,7 @@ function Login() {
                 <EuiText textAlign="center" grow={false}>
                   <h3>
                     <EuiTextColor>One Platform to</EuiTextColor>
-                    <EuiTextColor color="#0b5cff"> connect</EuiTextColor>
+                    <EuiTextColor color="#0b5cff"> connect </EuiTextColor>
                   </h3>
                 </EuiText>
                 <EuiSpacer size="l" />
